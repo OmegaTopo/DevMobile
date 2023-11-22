@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LocationSelection">
+
+    <View
+        android:id="@+id/retanguloBegin"
+        android:layout_width="414dp"
+        android:layout_height="78dp"
+        android:background="#202020"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="34dp"
+        android:src="@android:drawable/ic_menu_revert"
+        app:tint="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/select_city"
+        android:layout_width="190dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="38dp"
+        android:text="SELECIONE A CIDADE"
+        android:textSize="18sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/search_button"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="366dp"
+        android:layout_marginTop="34dp"
+        android:src="@android:drawable/ic_search"
+        app:tint="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/popular_cities"
+        android:layout_width="173dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="86dp"
+        android:text="Cidades mais acessadas"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line"
+        android:layout_width="215dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="96dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/popular_city_1"
+        android:layout_width="61dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="106dp"
+        android:text="São Paulo"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/popular_city_2"
+        android:layout_width="84dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="126dp"
+        android:text="Rio de Janeiro"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/acre"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="157dp"
+        android:text="AC - Acre"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_2"
+        android:layout_width="322dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="167dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/acre_city"
+        android:layout_width="66dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="173dp"
+        android:text="Rio Branco"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/alagoas"
+        android:layout_width="88dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="204dp"
+        android:text="AL - Alagoas"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_3"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="214dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/alagoas_city"
+        android:layout_width="58dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="224dp"
+        android:text="Arapiraca"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/alagoas_city_2"
+        android:layout_width="58dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="247dp"
+        android:text="Maceio"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/amazonas"
+        android:layout_width="111dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="276dp"
+        android:text="AM - Amazonas"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_4"
+        android:layout_width="277dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="286dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/amazonas_city"
+        android:layout_width="49dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="296dp"
+        android:text="Manaus"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/amapa"
+        android:layout_width="84dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="327dp"
+        android:text="AP - Amapa"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_5"
+        android:layout_width="304dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="336dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/amapa_city"
+        android:layout_width="49dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="347dp"
+        android:text="Macapa"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/bahia"
+        android:layout_width="73dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="378dp"
+        android:text="BA - Bahia"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_6"
+        android:layout_width="315dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="388dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bahia_city"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="398dp"
+        android:text="Feira de Santana"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/bahia_city_2"
+        android:layout_width="55dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="419dp"
+        android:text="Juazeiro"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/bahia_city_3"
+        android:layout_width="55dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="440dp"
+        android:text="Salvador"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ceara"
+        android:layout_width="73dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="471dp"
+        android:text="CE - Ceara"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_7"
+        android:layout_width="315dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="481dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ceara_city"
+        android:layout_width="98dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="491dp"
+        android:text="Fortaleza"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/ceara_city_2"
+        android:layout_width="106dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="512dp"
+        android:text="Juazeiro do Norte"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/federal_district"
+        android:layout_width="135dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="543dp"
+        android:text="DF - Distrito Federal"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_8"
+        android:layout_width="253dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="553dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/brasilia_city"
+        android:layout_width="47dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="563dp"
+        android:text="Brasilia"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/espirito_santo"
+        android:layout_width="131dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="594dp"
+        android:text="ES - Espirito Santo"
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_9"
+        android:layout_width="257dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="604dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/espirito_santo_city"
+        android:layout_width="58dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="614dp"
+        android:text="Cariacica"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/espirito_santo_city_2"
+        android:layout_width="42dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="635dp"
+        android:text="Vitoria"
+        android:textSize="13sp"
+        android:textColor="#FDB806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:id="@+id/retanguloFinal"
+        android:layout_width="414dp"
+        android:layout_height="48dp"
+        android:background="#202020"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/favoritos"
+        android:layout_width="86dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="876dp"
+        android:text="FAVORITOS"
+        android:textColor="#2092B6"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eventos"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="876dp"
+        android:text="EVENTOS"
+        android:textColor="#2092B6"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ingressos"
+        android:layout_width="88dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="876dp"
+        android:text="INGRESSOS"
+        android:textColor="#2092B6"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/perfil"
+        android:layout_width="54dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="876dp"
+        android:text="PERFIL"
+        android:textColor="#2092B6"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
