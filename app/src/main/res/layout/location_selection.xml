@@ -438,6 +438,140 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText" />
 
+    <TextView
+        android:id="@+id/goias"
+        android:layout_width="79dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="665dp"
+        android:text="GO - Goias "
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_10"
+        android:layout_width="306dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="675dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/goias_city"
+        android:layout_width="58dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="684dp"
+        android:text="Goiania"
+        android:textColor="#FDB806"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/goias_city_2"
+        android:layout_width="57dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="705dp"
+        android:text="Rio Verde"
+        android:textColor="#FDB806"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/maranhao"
+        android:layout_width="106dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="738dp"
+        android:text="MA - Maranhao "
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_11"
+        android:layout_width="281dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="748dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/maranhao_city"
+        android:layout_width="65dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="758dp"
+        android:text="Imperatriz"
+        android:textColor="#FDB806"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/maranhao_city_2"
+        android:layout_width="57dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="779dp"
+        android:text="São Luis"
+        android:textColor="#FDB806"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/minas_gerais"
+        android:layout_width="126dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="810dp"
+        android:text="MG - Minas Gerais "
+        android:textSize="15sp"
+        android:textColor="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/blue_line_12"
+        android:layout_width="261dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="820dp"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/minas_city"
+        android:layout_width="86dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="830dp"
+        android:text="Belo Horizonte"
+        android:textColor="#FDB806"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
     <View
         android:id="@+id/retanguloFinal"
         android:layout_width="414dp"
