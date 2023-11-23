@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    tools:layout_editor_absoluteX="-13dp"
+    tools:layout_editor_absoluteY="0dp"
+    tools:ignore="ExtraText">
+
+    <!-- Título -->
+
+    <!-- Linha abaixo do título -->
+
+    <!-- Subtítulo  -->
+
+    <!-- Imagem do palestrante -->
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="200dp"
+        android:fontFamily="@font/reem_kufi"
+        android:letterSpacing="0.1"
+        android:text="GANDALF"
+        android:textColor="#2092B6"
+        android:textSize="37sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="19dp" />
+
+    <View
+        android:id="@+id/titleUnderline"
+        android:layout_width="210dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:background="#2092B6"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/subtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleUnderline"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto"
+        android:text="Uma grande Aventura"
+        android:textColor="#FDB806"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:src="@drawable/data"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/roboto"
+        android:text="21/10/2023"
+        android:textColor="#2092B6"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="26dp"></TextView>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:src="@drawable/localizacao"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/roboto"
+        android:text="Sala 1"
+        android:textColor="#2092B6"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="50dp"></TextView>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:src="@drawable/horario"
+        tools:layout_editor_absoluteX="301dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/roboto"
+        android:text="21:00"
+        android:textColor="#2092B6"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="74dp"></TextView>
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/Gandalf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitleTextView" />
+
+    <!-- Container BIO -->
+    <View
+        android:id="@+id/BioContainer"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        app:layout_constraintTop_toBottomOf="@id/Image"
+        android:background="#202020" />
+
+    <!-- Título BIO -->
+    <TextView
+        android:id="@+id/BioTittle"
+        android:fontFamily="@font/roboto"
+        android:text="BIO"
+        android:textColor="#FDB806"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/BioContainer"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="5dp" />
+
+    <View
+        android:id="@+id/BioUnderLine"
+        android:layout_width="356dp"
+        android:layout_height="2dp"
+        android:background="#FDB806"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@id/BioTittle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/BioText"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:text="Aquele que nunca se atrasa, tampouco se adianta, mas chega exatamente quando quer chegar. \n\nMago arcano, algoz dos Balrogs, portador do anel Narya, conselheiro de reis e mestre aventureiro.
+Aquele em quem se pode confiar em momentos de grande necessidade."
+        android:textColor="#DCDBDB"
+        android:textSize="13sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:lineSpacingExtra="8dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/BioUnderLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/RedesSociais"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:background="#383838"
+        app:layout_constraintTop_toBottomOf="@id/BioUnderLine"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/face"
+            android:layout_width="10dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:background="#202020"
+            android:gravity="center"
+            android:clickable="true"
+            android:src="@drawable/face"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FDB806"/>
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="10dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:background="#202020"
+            android:gravity="center"
+            android:clickable="true"
+            android:src="@drawable/twitter"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FDB806"/>
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="10dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:background="#202020"
+            android:gravity="center"
+            android:clickable="true"
+            android:src="@drawable/insta"/>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/btnComprarIngresso"
+        android:layout_width="175dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="56dp"
+        android:background="#FDB806"
+        android:text="COMPRAR INGRESSO"
+        android:textColor="#000000"
+        android:fontFamily="@font/roboto"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:clickable="true"
+        app:layout_constraintTop_toBottomOf="@id/BioContainer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toBottomOf="@id/btnComprarIngresso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:gravity="center"
+            android:src="@drawable/FlechaAmarela"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="VOLTAR"
+            android:textColor="#FDB806"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            app:layout_constraintTop_toBottomOf="@id/btnComprarIngresso"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#383838"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tab1"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#383838"
+            android:gravity="center"
+            android:text="FAVORITOS"
+            android:textColor="#2092B6"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:clickable="true"/>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/tab2"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#383838"
+            android:gravity="center"
+            android:text="EVENTOS"
+            android:textColor="#2092B6"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:clickable="true"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/tab3"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#383838"
+            android:gravity="center"
+            android:text="INGRESSOS"
+            android:textColor="#2092B6"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:clickable="true"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <TextView
+            android:id="@+id/tab4"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#383838"
+            android:gravity="center"
+            android:text="PERFIL"
+            android:textColor="#2092B6"
+            android:fontFamily="@font/roboto"
+            android:textStyle="bold"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
